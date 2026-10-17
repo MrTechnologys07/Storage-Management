@@ -22,4 +22,5 @@ public class ProductInfo {
     public int getProductPrice() {
         return productPrice;
     }
+
 }
