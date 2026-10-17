@@ -24,9 +24,8 @@ public class StorageManagement {
                 products.trimToSize();
                 return true;
             }
-                System.out.println("This Product Is Not Found");
-                return false;
         }
+        System.out.println("This Product Is Not Found");
         return false;
     }
 
@@ -43,11 +42,8 @@ public class StorageManagement {
                 product.setProductPrice(newPrice);
                 return true;
             }
-
-            System.out.println("This Product Is Not Found");
-            return false;
-
         }
+        System.out.println("This Product Is Not Found");
         return false;
     }
 
